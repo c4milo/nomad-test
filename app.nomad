@@ -1,5 +1,5 @@
 job "test-job" {
-	datacenters = ["iad2", "dc1"]
+	datacenters = ["dc1"]
 	distinct_hosts = true
 	type = "service"
 	priority = 50
